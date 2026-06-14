@@ -75,7 +75,7 @@ jobs:
 
     - name: Update feeds
       run: |
-          cd openwrt && ./scripts/feeds update -a 
+          cd mt798x-24.10 && ./scripts/feeds update -a 
          
 
 
